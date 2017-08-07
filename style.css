@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+  background-color: gray;
+  padding: 20px;
+  font-size: 2em;
+  font-family: 'Muli', sans-serif;
+}
+
+form {
+  margin: 3rem;
+}
+
+#main {
+  background-color: teal;
+  padding: 40px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+#text {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  color: black;
+  text-align: center;
+  width: 75%;
+  font-size: 0.7em;
+}
+
+.linkStyle {
+  background-color: teal;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.unstyled {
+  list-style-type: none;
+}
+
+.done-true {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.newItem {
+  font-size: 0.7em;
+}
+
+.searchItem {
+  font-size: 0.7em;
+}
